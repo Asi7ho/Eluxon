@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B38E08C1FDDD3E7001A1C2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B38E08B1FDDD3E7001A1C2C /* AppDelegate.swift */; };
+		7B38E08E1FDDD3E7001A1C2C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B38E08D1FDDD3E7001A1C2C /* ViewController.swift */; };
+		7B38E0911FDDD3E7001A1C2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B38E08F1FDDD3E7001A1C2C /* Main.storyboard */; };
+		7B38E0931FDDD3E7001A1C2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B38E0921FDDD3E7001A1C2C /* Assets.xcassets */; };
+		7B38E0961FDDD3E7001A1C2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B38E0941FDDD3E7001A1C2C /* LaunchScreen.storyboard */; };
+		7B38E0A11FDDD3E7001A1C2C /* EluxonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B38E0A01FDDD3E7001A1C2C /* EluxonTests.swift */; };
+		7B38E0AC1FDDD3E7001A1C2C /* EluxonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B38E0AB1FDDD3E7001A1C2C /* EluxonUITests.swift */; };
+		7B38E0BC1FDDD6DE001A1C2C /* SwitchStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B38E0BB1FDDD6DE001A1C2C /* SwitchStatus.swift */; };
+		7B38E0BE1FDDD727001A1C2C /* Togglable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B38E0BD1FDDD727001A1C2C /* Togglable.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B38E09D1FDDD3E7001A1C2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B38E0801FDDD3E6001A1C2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B38E0871FDDD3E6001A1C2C;
+			remoteInfo = Eluxon;
+		};
+		7B38E0A81FDDD3E7001A1C2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B38E0801FDDD3E6001A1C2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B38E0871FDDD3E6001A1C2C;
+			remoteInfo = Eluxon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7B38E0881FDDD3E7001A1C2C /* Eluxon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eluxon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B38E08B1FDDD3E7001A1C2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7B38E08D1FDDD3E7001A1C2C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7B38E0901FDDD3E7001A1C2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7B38E0921FDDD3E7001A1C2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7B38E0951FDDD3E7001A1C2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7B38E0971FDDD3E7001A1C2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B38E09C1FDDD3E7001A1C2C /* EluxonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EluxonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B38E0A01FDDD3E7001A1C2C /* EluxonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EluxonTests.swift; sourceTree = "<group>"; };
+		7B38E0A21FDDD3E7001A1C2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B38E0A71FDDD3E7001A1C2C /* EluxonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EluxonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B38E0AB1FDDD3E7001A1C2C /* EluxonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EluxonUITests.swift; sourceTree = "<group>"; };
+		7B38E0AD1FDDD3E7001A1C2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B38E0BB1FDDD6DE001A1C2C /* SwitchStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchStatus.swift; sourceTree = "<group>"; };
+		7B38E0BD1FDDD727001A1C2C /* Togglable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Togglable.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B38E0851FDDD3E6001A1C2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B38E0991FDDD3E7001A1C2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B38E0A41FDDD3E7001A1C2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B38E07F1FDDD3E6001A1C2C = {
+			isa = PBXGroup;
+			children = (
+				7B38E08A1FDDD3E7001A1C2C /* Eluxon */,
+				7B38E09F1FDDD3E7001A1C2C /* EluxonTests */,
+				7B38E0AA1FDDD3E7001A1C2C /* EluxonUITests */,
+				7B38E0891FDDD3E7001A1C2C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B38E0891FDDD3E7001A1C2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B38E0881FDDD3E7001A1C2C /* Eluxon.app */,
+				7B38E09C1FDDD3E7001A1C2C /* EluxonTests.xctest */,
+				7B38E0A71FDDD3E7001A1C2C /* EluxonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B38E08A1FDDD3E7001A1C2C /* Eluxon */ = {
+			isa = PBXGroup;
+			children = (
+				7B38E0BA1FDDD6B7001A1C2C /* Protocols */,
+				7B38E0B91FDDD6AA001A1C2C /* Enums */,
+				7B38E08B1FDDD3E7001A1C2C /* AppDelegate.swift */,
+				7B38E08D1FDDD3E7001A1C2C /* ViewController.swift */,
+				7B38E08F1FDDD3E7001A1C2C /* Main.storyboard */,
+				7B38E0921FDDD3E7001A1C2C /* Assets.xcassets */,
+				7B38E0941FDDD3E7001A1C2C /* LaunchScreen.storyboard */,
+				7B38E0971FDDD3E7001A1C2C /* Info.plist */,
+			);
+			path = Eluxon;
+			sourceTree = "<group>";
+		};
+		7B38E09F1FDDD3E7001A1C2C /* EluxonTests */ = {
+			isa = PBXGroup;
+			children = (
+				7B38E0A01FDDD3E7001A1C2C /* EluxonTests.swift */,
+				7B38E0A21FDDD3E7001A1C2C /* Info.plist */,
+			);
+			path = EluxonTests;
+			sourceTree = "<group>";
+		};
+		7B38E0AA1FDDD3E7001A1C2C /* EluxonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7B38E0AB1FDDD3E7001A1C2C /* EluxonUITests.swift */,
+				7B38E0AD1FDDD3E7001A1C2C /* Info.plist */,
+			);
+			path = EluxonUITests;
+			sourceTree = "<group>";
+		};
+		7B38E0B91FDDD6AA001A1C2C /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				7B38E0BB1FDDD6DE001A1C2C /* SwitchStatus.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		7B38E0BA1FDDD6B7001A1C2C /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				7B38E0BD1FDDD727001A1C2C /* Togglable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B38E0871FDDD3E6001A1C2C /* Eluxon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B38E0B01FDDD3E7001A1C2C /* Build configuration list for PBXNativeTarget "Eluxon" */;
+			buildPhases = (
+				7B38E0841FDDD3E6001A1C2C /* Sources */,
+				7B38E0851FDDD3E6001A1C2C /* Frameworks */,
+				7B38E0861FDDD3E6001A1C2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Eluxon;
+			productName = Eluxon;
+			productReference = 7B38E0881FDDD3E7001A1C2C /* Eluxon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7B38E09B1FDDD3E7001A1C2C /* EluxonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B38E0B31FDDD3E7001A1C2C /* Build configuration list for PBXNativeTarget "EluxonTests" */;
+			buildPhases = (
+				7B38E0981FDDD3E7001A1C2C /* Sources */,
+				7B38E0991FDDD3E7001A1C2C /* Frameworks */,
+				7B38E09A1FDDD3E7001A1C2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B38E09E1FDDD3E7001A1C2C /* PBXTargetDependency */,
+			);
+			name = EluxonTests;
+			productName = EluxonTests;
+			productReference = 7B38E09C1FDDD3E7001A1C2C /* EluxonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7B38E0A61FDDD3E7001A1C2C /* EluxonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B38E0B61FDDD3E7001A1C2C /* Build configuration list for PBXNativeTarget "EluxonUITests" */;
+			buildPhases = (
+				7B38E0A31FDDD3E7001A1C2C /* Sources */,
+				7B38E0A41FDDD3E7001A1C2C /* Frameworks */,
+				7B38E0A51FDDD3E7001A1C2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B38E0A91FDDD3E7001A1C2C /* PBXTargetDependency */,
+			);
+			name = EluxonUITests;
+			productName = EluxonUITests;
+			productReference = 7B38E0A71FDDD3E7001A1C2C /* EluxonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B38E0801FDDD3E6001A1C2C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Debain Yann";
+				TargetAttributes = {
+					7B38E0871FDDD3E6001A1C2C = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					7B38E09B1FDDD3E7001A1C2C = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7B38E0871FDDD3E6001A1C2C;
+					};
+					7B38E0A61FDDD3E7001A1C2C = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7B38E0871FDDD3E6001A1C2C;
+					};
+				};
+			};
+			buildConfigurationList = 7B38E0831FDDD3E6001A1C2C /* Build configuration list for PBXProject "Eluxon" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B38E07F1FDDD3E6001A1C2C;
+			productRefGroup = 7B38E0891FDDD3E7001A1C2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B38E0871FDDD3E6001A1C2C /* Eluxon */,
+				7B38E09B1FDDD3E7001A1C2C /* EluxonTests */,
+				7B38E0A61FDDD3E7001A1C2C /* EluxonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B38E0861FDDD3E6001A1C2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B38E0961FDDD3E7001A1C2C /* LaunchScreen.storyboard in Resources */,
+				7B38E0931FDDD3E7001A1C2C /* Assets.xcassets in Resources */,
+				7B38E0911FDDD3E7001A1C2C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B38E09A1FDDD3E7001A1C2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B38E0A51FDDD3E7001A1C2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B38E0841FDDD3E6001A1C2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B38E08E1FDDD3E7001A1C2C /* ViewController.swift in Sources */,
+				7B38E08C1FDDD3E7001A1C2C /* AppDelegate.swift in Sources */,
+				7B38E0BC1FDDD6DE001A1C2C /* SwitchStatus.swift in Sources */,
+				7B38E0BE1FDDD727001A1C2C /* Togglable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B38E0981FDDD3E7001A1C2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B38E0A11FDDD3E7001A1C2C /* EluxonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B38E0A31FDDD3E7001A1C2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B38E0AC1FDDD3E7001A1C2C /* EluxonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B38E09E1FDDD3E7001A1C2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B38E0871FDDD3E6001A1C2C /* Eluxon */;
+			targetProxy = 7B38E09D1FDDD3E7001A1C2C /* PBXContainerItemProxy */;
+		};
+		7B38E0A91FDDD3E7001A1C2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B38E0871FDDD3E6001A1C2C /* Eluxon */;
+			targetProxy = 7B38E0A81FDDD3E7001A1C2C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7B38E08F1FDDD3E7001A1C2C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B38E0901FDDD3E7001A1C2C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7B38E0941FDDD3E7001A1C2C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B38E0951FDDD3E7001A1C2C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7B38E0AE1FDDD3E7001A1C2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7B38E0AF1FDDD3E7001A1C2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B38E0B11FDDD3E7001A1C2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Eluxon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DY.Eluxon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7B38E0B21FDDD3E7001A1C2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Eluxon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DY.Eluxon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7B38E0B41FDDD3E7001A1C2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EluxonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DY.EluxonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eluxon.app/Eluxon";
+			};
+			name = Debug;
+		};
+		7B38E0B51FDDD3E7001A1C2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EluxonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DY.EluxonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eluxon.app/Eluxon";
+			};
+			name = Release;
+		};
+		7B38E0B71FDDD3E7001A1C2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EluxonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DY.EluxonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Eluxon;
+			};
+			name = Debug;
+		};
+		7B38E0B81FDDD3E7001A1C2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EluxonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DY.EluxonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Eluxon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B38E0831FDDD3E6001A1C2C /* Build configuration list for PBXProject "Eluxon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B38E0AE1FDDD3E7001A1C2C /* Debug */,
+				7B38E0AF1FDDD3E7001A1C2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B38E0B01FDDD3E7001A1C2C /* Build configuration list for PBXNativeTarget "Eluxon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B38E0B11FDDD3E7001A1C2C /* Debug */,
+				7B38E0B21FDDD3E7001A1C2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B38E0B31FDDD3E7001A1C2C /* Build configuration list for PBXNativeTarget "EluxonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B38E0B41FDDD3E7001A1C2C /* Debug */,
+				7B38E0B51FDDD3E7001A1C2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B38E0B61FDDD3E7001A1C2C /* Build configuration list for PBXNativeTarget "EluxonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B38E0B71FDDD3E7001A1C2C /* Debug */,
+				7B38E0B81FDDD3E7001A1C2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B38E0801FDDD3E6001A1C2C /* Project object */;
+}
